@@ -37,6 +37,7 @@
 
 const char device_reserved[] PROGMEM = "Reserved";
 
+
 %for addr, values in sorted( devices.items() ):
 const char device_${ f"{addr:02x}" }[] PROGMEM = "${ ','.join( values ) }";
 %endfor
@@ -58,6 +59,7 @@ I2C_devices::I2C_devices()
     return;
 }
 
+
 const char* I2C_devices::getLabel( int address )
 {
     memcpy_P( &device, &this->I2CTable[ address ], sizeof ( I2C_DEVICE ) );
@@ -71,6 +73,7 @@ const char* I2C_devices::getLabel( int address )
     return ( this->buffer );
 }
 
+
 void I2C_devices::banner()
 {
     printf( "I2C Scanner version %s, Copyright (C) 2025 Marc Bertens-Nguyen\n", __version__ );
@@ -79,6 +82,7 @@ void I2C_devices::banner()
     printf( "under certain conditions; see LICENCE.md for details.\n\n" );
     return;
 }
+
 
 void I2C_devices::scan( void )
 {
