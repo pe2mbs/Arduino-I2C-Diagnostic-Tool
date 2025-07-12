@@ -46,31 +46,28 @@ You currently have to build the firmware yourself using Arduino IDE.
 ### Clone the repository
 
     git clone https://github.com/pe2mbs/Arduino-I2C-Diagnostic-Tool.git
-
-### Optional run the convertpy script
-
     cd ./Arduino-I2C-Diagnostic-Tool
 
-    python3 convert.py
-
-In case of No-internet connection on the machine, download the https://i2cdevices.org/devices.json manually and overwrite 
-the current file. When NO internet by default the convert.py script will fallback to the local stored JSON file.
-
-#### Error on requests library
+#### Install Python environment and libraries
   
 On linux systems
 
     virtualenv venv
-    source venv/bin/activate
-    pip install requests
-    python3 convert.py
+    venv/scripts/pip install -r requirements.txt
      
 On Windows systems
     
     virtualenv venv 
-    venv/scripts/activate
-    pip install requests
-    python3 convert.py
+    venv/scripts/pip install -r requirements.txt
+
+
+### Run the update_i2c_devices,py run the convertpy script
+
+
+     venv/bin/python3 update_i2c_devices,py
+
+In case of No-internet connection on the machine, download the https://i2cdevices.org/devices.json manually and overwrite 
+the current file. When NO internet by default the convert.py script will fallback to the local stored JSON file.
 
 ## Compile and load the code 
 Now you see the output on the serial console of Arduino IDE.

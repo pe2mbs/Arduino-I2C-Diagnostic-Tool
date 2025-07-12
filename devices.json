@@ -1,24 +1,6 @@
 [
   {
     "part_number": "47L04/47C04/47L16/47C16",
-    "friendly_name": "4K/16K I2C Serial EERAM - SRAM Memory with EEPROM backup",
-    "datasheet": "https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/47L04-47C04-47L16-47C16-4-Kbit-16-Kbit-I2C-Serial-EERAM-20005371E.pdf",
-    "obsolete": false,
-    "is_5v": true,
-    "is_3v": true,
-    "is_spi": false,
-    "release_date": 2015,
-    "scanned_drivers": false,
-    "drivers": [],
-    "addresses": [
-      86,
-      84,
-      80,
-      82
-    ]
-  },
-  {
-    "part_number": "47L04/47C04/47L16/47C16",
     "friendly_name": "4K/16K I2C Serial EERAM - Control register",
     "datasheet": "https://www.tme.eu/Document/76f59a10885b9889307bddbe089a04f6/47c04.pdf",
     "obsolete": false,
@@ -33,6 +15,24 @@
       30,
       24,
       26
+    ]
+  },
+  {
+    "part_number": "47L04/47C04/47L16/47C16",
+    "friendly_name": "4K/16K I2C Serial EERAM - SRAM Memory with EEPROM backup",
+    "datasheet": "https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/47L04-47C04-47L16-47C16-4-Kbit-16-Kbit-I2C-Serial-EERAM-20005371E.pdf",
+    "obsolete": false,
+    "is_5v": true,
+    "is_3v": true,
+    "is_spi": false,
+    "release_date": 2015,
+    "scanned_drivers": false,
+    "drivers": [],
+    "addresses": [
+      80,
+      86,
+      84,
+      82
     ]
   },
   {
@@ -118,8 +118,8 @@
     "drivers": [],
     "addresses": [
       75,
-      74,
       73,
+      74,
       72
     ]
   },
@@ -138,8 +138,8 @@
     "drivers": [],
     "addresses": [
       75,
-      74,
       73,
+      74,
       72
     ]
   },
@@ -158,8 +158,8 @@
     "drivers": [],
     "addresses": [
       75,
-      74,
       73,
+      74,
       72
     ]
   },
@@ -228,12 +228,12 @@
     "drivers": [
       {
         "link": "https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/AK8975",
-        "title": "i2cdevlib/Arduino/AK8975 at master · jrowberg/i2cdevlib · GitHub"
+        "title": "i2cdevlib/Arduino/AK8975 at master \u00b7 jrowberg/i2cdevlib \u00b7 GitHub"
       }
     ],
     "addresses": [
-      13,
       15,
+      13,
       14,
       12
     ]
@@ -327,7 +327,7 @@
       },
       {
         "link": "https://gist.github.com/fnishio/8e9b5018a7e752569e36",
-        "title": "apds9960.py · GitHub"
+        "title": "apds9960.py \u00b7 GitHub"
       }
     ],
     "addresses": [
@@ -387,11 +387,11 @@
     "scanned_drivers": false,
     "drivers": [],
     "addresses": [
+      80,
       86,
       84,
-      80,
-      87,
       85,
+      87,
       83,
       82,
       81
@@ -410,29 +410,15 @@
     "scanned_drivers": false,
     "drivers": [],
     "addresses": [
+      80,
       86,
       84,
-      80,
-      87,
       85,
+      87,
       83,
       82,
       81
     ]
-  },
-  {
-    "part_number": "ATECC508A",
-    "friendly_name": "CryptoAuthentication Device",
-    "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/20005927A.pdf",
-    "sparkfun": "https://www.sparkfun.com/products/15573",
-    "obsolete": false,
-    "manufacturer": "Microchip",
-    "is_5v": true,
-    "is_3v": true,
-    "is_spi": false,
-    "scanned_drivers": false,
-    "drivers": [],
-    "addresses": []
   },
   {
     "part_number": "ATECC508A",
@@ -450,8 +436,22 @@
     ]
   },
   {
+    "part_number": "ATECC508A",
+    "friendly_name": "CryptoAuthentication Device",
+    "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/20005927A.pdf",
+    "sparkfun": "https://www.sparkfun.com/products/15573",
+    "obsolete": false,
+    "manufacturer": "Microchip",
+    "is_5v": true,
+    "is_3v": true,
+    "is_spi": false,
+    "scanned_drivers": false,
+    "drivers": [],
+    "addresses": []
+  },
+  {
     "part_number": "ATECC608A",
-    "friendly_name": "Microchip CryptoAuthentication™ Device",
+    "friendly_name": "Microchip CryptoAuthentication\u2122 Device",
     "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/40001977A.pdf",
     "obsolete": false,
     "manufacturer": "Atmel / Microchip",
@@ -496,7 +496,7 @@
     "drivers": [
       {
         "link": "https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/BMA150",
-        "title": "i2cdevlib/Arduino/BMA150 at master · jrowberg/i2cdevlib · GitHub"
+        "title": "i2cdevlib/Arduino/BMA150 at master \u00b7 jrowberg/i2cdevlib \u00b7 GitHub"
       }
     ],
     "addresses": [
@@ -541,7 +541,7 @@
   },
   {
     "part_number": "BME680",
-    "friendly_name": "Low power gas, pressure, temperature \u0026 humidity sensor",
+    "friendly_name": "Low power gas, pressure, temperature & humidity sensor",
     "datasheet": "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf",
     "adafruit": "https://www.adafruit.com/product/3660",
     "obsolete": false,
@@ -653,7 +653,7 @@
       },
       {
         "link": "https://gist.github.com/5a0db5be900ca8b7f2d528fb37968b38",
-        "title": "bmp180.c · GitHub"
+        "title": "bmp180.c \u00b7 GitHub"
       },
       {
         "link": "https://github.com/adafruit/Adafruit-BMP085-Library",
@@ -745,9 +745,9 @@
     "scanned_drivers": true,
     "drivers": [],
     "addresses": [
-      44,
       40,
       41,
+      44,
       42,
       45,
       43
@@ -766,11 +766,11 @@
     "scanned_drivers": false,
     "drivers": [],
     "addresses": [
+      80,
       86,
       84,
-      80,
-      87,
       85,
+      87,
       83,
       82,
       81
@@ -778,7 +778,7 @@
   },
   {
     "part_number": "CAT5171",
-    "friendly_name": "256‐position I2C Compatible Digital Potentiometer ",
+    "friendly_name": "256\u2010position I2C Compatible Digital Potentiometer ",
     "datasheet": "https://www.onsemi.com/pub/Collateral/CAT5171-D.PDF",
     "obsolete": false,
     "manufacturer": "ON Semiconductor",
@@ -794,24 +794,6 @@
   },
   {
     "part_number": "CCS811",
-    "friendly_name": "Ultra-Low Power Digital Gas Sensor for Monitoring Indoor Air Quality TVOC eCO2",
-    "datasheet": "https://www.sciosense.com/wp-content/uploads/2020/01/SC-001232-DS-2-CCS811B-Datasheet-Revision-2.pdf",
-    "adafruit": "https://learn.adafruit.com/adafruit-ccs811-air-quality-sensor",
-    "sparkfun": "https://www.sparkfun.com/products/14193",
-    "obsolete": true,
-    "manufacturer": "ScioSense",
-    "is_5v": false,
-    "is_3v": true,
-    "is_spi": false,
-    "scanned_drivers": false,
-    "drivers": [],
-    "addresses": [
-      91,
-      90
-    ]
-  },
-  {
-    "part_number": "CCS811",
     "friendly_name": "Volatile organics (VOC) and equivalent CO2 (eCO2) sensor",
     "datasheet": "https://ams.com/documents/20143/36005/CCS811_DS000459_6-00.pdf/c7091525-c7e5-37ac-eedb-b6c6828b0dcf",
     "adafruit": "https://www.adafruit.com/product/3566",
@@ -822,6 +804,24 @@
     "is_3v": true,
     "is_spi": false,
     "scanned_drivers": true,
+    "drivers": [],
+    "addresses": [
+      91,
+      90
+    ]
+  },
+  {
+    "part_number": "CCS811",
+    "friendly_name": "Ultra-Low Power Digital Gas Sensor for Monitoring Indoor Air Quality TVOC eCO2",
+    "datasheet": "https://www.sciosense.com/wp-content/uploads/2020/01/SC-001232-DS-2-CCS811B-Datasheet-Revision-2.pdf",
+    "adafruit": "https://learn.adafruit.com/adafruit-ccs811-air-quality-sensor",
+    "sparkfun": "https://www.sparkfun.com/products/14193",
+    "obsolete": true,
+    "manufacturer": "ScioSense",
+    "is_5v": false,
+    "is_3v": true,
+    "is_spi": false,
+    "scanned_drivers": false,
     "drivers": [],
     "addresses": [
       91,
@@ -858,7 +858,7 @@
   },
   {
     "part_number": "CS43L22",
-    "friendly_name": "Low Power Stereo DAC w/ Headphone \u0026 Speaker Amps",
+    "friendly_name": "Low Power Stereo DAC w/ Headphone & Speaker Amps",
     "datasheet": "https://statics.cirrus.com/pubs/proDatasheet/CS43L22_F2.pdf",
     "obsolete": false,
     "manufacturer": "Cirrus Logic",
@@ -978,11 +978,11 @@
     "scanned_drivers": false,
     "drivers": [],
     "addresses": [
-      44,
       40,
       41,
-      42,
+      44,
       46,
+      42,
       45,
       47,
       43
@@ -1027,7 +1027,7 @@
   },
   {
     "part_number": "EMC2101",
-    "friendly_name": "SMBus Fan Control with 1°C Accurate Temperature Monitoring",
+    "friendly_name": "SMBus Fan Control with 1\u00b0C Accurate Temperature Monitoring",
     "datasheet": "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/EMC2101-Data-Sheet-DS20006703.pdf",
     "adafruit": "https://www.adafruit.com/product/4808",
     "obsolete": false,
@@ -1060,7 +1060,7 @@
   {
     "part_number": "FS3000",
     "friendly_name": "Air Velocity Sensor Module - 3.3V - 0-7, 0-15m/sec",
-    "datasheet": "https://www.renesas.com/us/en/document/dst/fs3000-datasheet?language=en\u0026r=1395551",
+    "datasheet": "https://www.renesas.com/us/en/document/dst/fs3000-datasheet?language=en&r=1395551",
     "sparkfun": "https://www.renesas.com/us/en/document/dst/fs1015-datasheet",
     "obsolete": false,
     "manufacturer": "Renesas",
@@ -1089,7 +1089,7 @@
     "drivers": [
       {
         "link": "https://github.com/arduino-org/arduino-library-graphics/blob/master/src/ft6x06.h",
-        "title": "arduino-library-graphics/ft6x06.h at master · arduino-org/arduino ..."
+        "title": "arduino-library-graphics/ft6x06.h at master \u00b7 arduino-org/arduino ..."
       }
     ],
     "addresses": [
@@ -1135,8 +1135,8 @@
     "addresses": [
       28,
       29,
-      30,
-      31
+      31,
+      30
     ]
   },
   {
@@ -1291,13 +1291,13 @@
       }
     ],
     "addresses": [
+      118,
       117,
       116,
-      118,
-      112,
-      113,
       115,
       119,
+      112,
+      113,
       114
     ]
   },
@@ -1343,8 +1343,8 @@
   },
   {
     "part_number": "HTU31D",
-    "friendly_name": "Digital Relative Humidity \u0026 Temperature Sensor",
-    "datasheet": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc\u0026DocId=Data+Sheet%7FHTU31_RHT_SENSOR_IC%7F3%7Fpdf%7FEnglish%7FENG_DS_HTU31_RHT_SENSOR_IC_3.pdf%7F10142048-01",
+    "friendly_name": "Digital Relative Humidity & Temperature Sensor",
+    "datasheet": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FHTU31_RHT_SENSOR_IC%7F3%7Fpdf%7FEnglish%7FENG_DS_HTU31_RHT_SENSOR_IC_3.pdf%7F10142048-01",
     "adafruit": "https://www.adafruit.com/product/4832",
     "obsolete": false,
     "manufacturer": "TE Connectivity",
@@ -1368,14 +1368,14 @@
     "scanned_drivers": false,
     "drivers": [],
     "addresses": [
-      33,
-      36,
       39,
-      38,
-      35,
+      36,
+      33,
       32,
       34,
-      37
+      37,
+      35,
+      38
     ]
   },
   {
@@ -1384,7 +1384,7 @@
     "datasheet": "https://invensense.tdk.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf",
     "adafruit": "https://www.adafruit.com/product/4554",
     "sparkfun": "https://www.sparkfun.com/products/15335",
-    "amazon": "https://www.amazon.com/s?k=ICM-20948+sensor\u0026ref=nb_sb_noss",
+    "amazon": "https://www.amazon.com/s?k=ICM-20948+sensor&ref=nb_sb_noss",
     "obsolete": false,
     "manufacturer": "TDK InvenSense",
     "is_5v": false,
@@ -1407,21 +1407,21 @@
     "scanned_drivers": true,
     "drivers": [],
     "addresses": [
-      65,
       67,
-      70,
-      71,
       75,
+      71,
+      65,
+      70,
       76,
       78,
-      68,
-      64,
+      77,
+      73,
       74,
       69,
-      73,
-      77,
-      72,
+      64,
+      68,
       66,
+      72,
       79
     ]
   },
@@ -1439,21 +1439,21 @@
     "scanned_drivers": false,
     "drivers": [],
     "addresses": [
-      65,
       67,
-      70,
-      71,
       75,
+      71,
+      65,
+      70,
       76,
       78,
-      68,
-      64,
+      77,
+      73,
       74,
       69,
-      73,
-      77,
-      72,
+      64,
+      68,
       66,
+      72,
       79
     ]
   },
@@ -1480,7 +1480,7 @@
       },
       {
         "link": "https://github.com/adafruit/micropython-adafruit-is31fl3731/blob/master/docs/examples.rst",
-        "title": "micropython-adafruit-is31fl3731/examples.rst at master · adafruit ..."
+        "title": "micropython-adafruit-is31fl3731/examples.rst at master \u00b7 adafruit ..."
       }
     ],
     "addresses": [
@@ -1507,7 +1507,7 @@
       },
       {
         "link": "https://github.com/torvalds/linux/blob/master/drivers/iio/light/isl29125.c",
-        "title": "linux/isl29125.c at master · torvalds/linux · GitHub"
+        "title": "linux/isl29125.c at master \u00b7 torvalds/linux \u00b7 GitHub"
       }
     ],
     "addresses": [
@@ -1566,7 +1566,7 @@
       },
       {
         "link": "https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/L3GD20H",
-        "title": "i2cdevlib/Arduino/L3GD20H at master · jrowberg/i2cdevlib · GitHub"
+        "title": "i2cdevlib/Arduino/L3GD20H at master \u00b7 jrowberg/i2cdevlib \u00b7 GitHub"
       },
       {
         "link": "https://github.com/SuperHouse/esp-open-rtos/blob/master/extras/l3gd20h/l3gd20h.c",
@@ -1574,13 +1574,13 @@
       }
     ],
     "addresses": [
-      107,
-      106
+      106,
+      107
     ]
   },
   {
     "part_number": "LC709203F ",
-    "friendly_name": "Smart LiB Gauge Battery Fuel Gauge LSI For 1‐Cell Lithium‐ion/ Polymer (Li+)",
+    "friendly_name": "Smart LiB Gauge Battery Fuel Gauge LSI For 1\u2010Cell Lithium\u2010ion/ Polymer (Li+)",
     "datasheet": "https://www.mouser.com/datasheet/2/308/LC709203F_D-1810548.pdf",
     "adafruit": "https://www.adafruit.com/product/4712",
     "obsolete": false,
@@ -1623,32 +1623,32 @@
     "scanned_drivers": false,
     "drivers": [],
     "addresses": [
-      17,
-      86,
-      84,
       80,
+      17,
       22,
-      65,
-      16,
-      20,
       21,
       67,
-      70,
+      20,
+      86,
+      16,
       71,
-      89,
-      87,
-      19,
-      68,
-      18,
+      84,
+      65,
+      70,
       88,
-      64,
+      89,
+      19,
       69,
+      18,
+      64,
+      68,
       85,
+      87,
       83,
-      90,
+      66,
       82,
       23,
-      66,
+      90,
       81
     ]
   },
@@ -1668,9 +1668,9 @@
       75,
       76,
       78,
-      74,
-      73,
       77,
+      73,
+      74,
       72,
       79
     ]
@@ -1679,7 +1679,7 @@
     "part_number": "LPS22HB",
     "friendly_name": "MEMS nano pressure sensor",
     "datasheet": "https://www.waveshare.com/w/upload/2/20/Lps22hb.pdf",
-    "amazon": "https://www.amazon.com/Waveshare-Sense-HAT-Raspberry-Powerful/dp/B07VYYS4K6/ref=sr_1_3?dchild=1\u0026keywords=waveshare+sense+hat+b\u0026qid=1600209597\u0026sr=8-3",
+    "amazon": "https://www.amazon.com/Waveshare-Sense-HAT-Raspberry-Powerful/dp/B07VYYS4K6/ref=sr_1_3?dchild=1&keywords=waveshare+sense+hat+b&qid=1600209597&sr=8-3",
     "obsolete": false,
     "manufacturer": "ST Microelectronics",
     "is_5v": false,
@@ -1690,6 +1690,21 @@
     "drivers": [],
     "addresses": [
       46
+    ]
+  },
+  {
+    "part_number": "LSM303",
+    "friendly_name": "Triple-axis Accelerometer+Magnetometer (Compass)",
+    "datasheet": "https://www.st.com/resource/en/datasheet/DM00027543.pdf",
+    "adafruit": "https://www.adafruit.com/product/1120",
+    "sparkfun": "https://www.sparkfun.com/products/retired/10703",
+    "obsolete": false,
+    "manufacturer": "ST Microelectronics",
+    "scanned_drivers": true,
+    "drivers": [],
+    "addresses": [
+      30,
+      24
     ]
   },
   {
@@ -1728,27 +1743,12 @@
       },
       {
         "link": "https://gist.github.com/2355655",
-        "title": "Arduino · GitHub"
+        "title": "Arduino \u00b7 GitHub"
       }
     ],
     "addresses": [
       30,
       25
-    ]
-  },
-  {
-    "part_number": "LSM303",
-    "friendly_name": "Triple-axis Accelerometer+Magnetometer (Compass)",
-    "datasheet": "https://www.st.com/resource/en/datasheet/DM00027543.pdf",
-    "adafruit": "https://www.adafruit.com/product/1120",
-    "sparkfun": "https://www.sparkfun.com/products/retired/10703",
-    "obsolete": false,
-    "manufacturer": "ST Microelectronics",
-    "scanned_drivers": true,
-    "drivers": [],
-    "addresses": [
-      30,
-      24
     ]
   },
   {
@@ -1764,13 +1764,13 @@
     "drivers": [],
     "addresses": [
       105,
+      109,
+      106,
       107,
       111,
       102,
-      106,
-      109,
-      110,
       108,
+      110,
       104,
       103
     ]
@@ -1789,9 +1789,9 @@
     "drivers": [],
     "addresses": [
       33,
-      35,
       32,
-      34
+      34,
+      35
     ]
   },
   {
@@ -1818,7 +1818,7 @@
   },
   {
     "part_number": "MAX17048",
-    "friendly_name": "3μA 1-Cell/2-Cell Fuel Gauge with ModelGauge",
+    "friendly_name": "3\u03bcA 1-Cell/2-Cell Fuel Gauge with ModelGauge",
     "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX17048-MAX17049.pdf",
     "obsolete": false,
     "manufacturer": "Maxim",
@@ -1834,7 +1834,7 @@
   },
   {
     "part_number": "MAX17048 ",
-    "friendly_name": "3μA 1-Cell/2-Cell Fuel Gauge with ModelGauge",
+    "friendly_name": "3\u03bcA 1-Cell/2-Cell Fuel Gauge with ModelGauge",
     "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf",
     "adafruit": "https://www.adafruit.com/product/5580",
     "sparkfun": "https://www.sparkfun.com/products/17715",
@@ -1869,7 +1869,7 @@
   },
   {
     "part_number": "MAX3010x",
-    "friendly_name": "Pulse \u0026 Oximetry sensor",
+    "friendly_name": "Pulse & Oximetry sensor",
     "datasheet": "https://datasheets.maximintegrated.com/en/ds/MAX3000E-MAX3012.pdf",
     "sparkfun": "https://www.sparkfun.com/products/14045",
     "obsolete": true,
@@ -1914,11 +1914,11 @@
       },
       {
         "link": "https://github.com/contiki-os/contiki/blob/master/platform/openmote-cc2538/dev/max44009.c",
-        "title": "contiki/max44009.c at master · contiki-os/contiki · GitHub"
+        "title": "contiki/max44009.c at master \u00b7 contiki-os/contiki \u00b7 GitHub"
       },
       {
         "link": "https://github.com/RobTillaart/Arduino/blob/master/libraries/Max44009/max44009.cpp",
-        "title": "Arduino/max44009.cpp at master · RobTillaart/Arduino · GitHub"
+        "title": "Arduino/max44009.cpp at master \u00b7 RobTillaart/Arduino \u00b7 GitHub"
       }
     ],
     "addresses": [
@@ -1941,11 +1941,11 @@
       }
     ],
     "addresses": [
+      80,
       86,
       84,
-      80,
-      87,
       85,
+      87,
       83,
       82,
       81
@@ -1974,22 +1974,22 @@
       },
       {
         "link": "https://github.com/nodemcu/nodemcu-firmware/blob/master/lua_modules/mcp23008/mcp23008.lua",
-        "title": "nodemcu-firmware/mcp23008.lua at master · nodemcu/nodemcu ..."
+        "title": "nodemcu-firmware/mcp23008.lua at master \u00b7 nodemcu/nodemcu ..."
       },
       {
         "link": "https://github.com/WiringPi/WiringPi/blob/master/wiringPi/mcp23008.c",
-        "title": "WiringPi/mcp23008.c at master · WiringPi/WiringPi · GitHub"
+        "title": "WiringPi/mcp23008.c at master \u00b7 WiringPi/WiringPi \u00b7 GitHub"
       }
     ],
     "addresses": [
-      33,
-      36,
       39,
-      38,
-      35,
+      36,
+      33,
       32,
       34,
-      37
+      37,
+      35,
+      38
     ]
   },
   {
@@ -2019,19 +2019,19 @@
       }
     ],
     "addresses": [
-      33,
-      36,
       39,
-      38,
-      35,
+      36,
+      33,
       32,
       34,
-      37
+      37,
+      35,
+      38
     ]
   },
   {
     "part_number": "MCP3422",
-    "friendly_name": "18-Bit, Multi-Channel ΔΣ Analog-to-Digital Converter with I2CTM Interface and On-Board Reference",
+    "friendly_name": "18-Bit, Multi-Channel \u0394\u03a3 Analog-to-Digital Converter with I2CTM Interface and On-Board Reference",
     "datasheet": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/22088c.pdf",
     "obsolete": false,
     "manufacturer": "Microchip",
@@ -2058,11 +2058,11 @@
     "scanned_drivers": false,
     "drivers": [],
     "addresses": [
-      44,
       40,
       41,
-      42,
+      44,
       46,
+      42,
       45,
       47,
       43
@@ -2102,7 +2102,7 @@
     "drivers": [
       {
         "link": "https://gist.github.com/HectorTorres/1d1e0b0e4bb962eaaf6c2bf34e63ed72",
-        "title": "MCP4725 DAC.c · GitHub"
+        "title": "MCP4725 DAC.c \u00b7 GitHub"
       },
       {
         "link": "https://github.com/adafruit/Adafruit_MCP4725/pull/9/files",
@@ -2110,13 +2110,13 @@
       }
     ],
     "addresses": [
-      97,
       99,
+      97,
       102,
       98,
       100,
-      96,
       101,
+      96,
       103
     ]
   },
@@ -2168,13 +2168,13 @@
     "scanned_drivers": false,
     "drivers": [],
     "addresses": [
-      97,
       99,
+      97,
       102,
       98,
       100,
-      96,
       101,
+      96,
       103
     ]
   },
@@ -2197,7 +2197,7 @@
   },
   {
     "part_number": "MCP9808",
-    "friendly_name": "±0.5°C Maximum Accuracy Digital Temperature Sensor",
+    "friendly_name": "\u00b10.5\u00b0C Maximum Accuracy Digital Temperature Sensor",
     "datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/25095A.pdf",
     "adafruit": "https://www.adafruit.com/product/1782",
     "obsolete": false,
@@ -2222,13 +2222,13 @@
       }
     ],
     "addresses": [
-      28,
       27,
+      28,
       29,
+      31,
       30,
       24,
       26,
-      31,
       25
     ]
   },
@@ -2343,7 +2343,7 @@
       },
       {
         "link": "https://gist.github.com/6995427",
-        "title": "mpl115a2.py · GitHub"
+        "title": "mpl115a2.py \u00b7 GitHub"
       }
     ],
     "addresses": [
@@ -2392,15 +2392,15 @@
       }
     ],
     "addresses": [
-      91,
       93,
-      90,
-      92
+      91,
+      92,
+      90
     ]
   },
   {
     "part_number": "MPU6050",
-    "friendly_name": "Six-Axis (Gyro + Accelerometer) MEMS MotionTracking™ Devices",
+    "friendly_name": "Six-Axis (Gyro + Accelerometer) MEMS MotionTracking\u2122 Devices",
     "datasheet": "https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf",
     "obsolete": false,
     "manufacturer": "InvenSense",
@@ -2412,6 +2412,22 @@
     "drivers": [],
     "addresses": [
       105,
+      104
+    ]
+  },
+  {
+    "part_number": "MPU-9250",
+    "friendly_name": "3-Axis Gyroscope and Accelerometer",
+    "datasheet": "https://invensense.wpenginepowered.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf",
+    "obsolete": false,
+    "manufacturer": "InvenSense (TDK)",
+    "is_5v": false,
+    "is_3v": true,
+    "is_spi": true,
+    "release_date": 2013,
+    "scanned_drivers": false,
+    "drivers": [],
+    "addresses": [
       104
     ]
   },
@@ -2455,25 +2471,9 @@
     ]
   },
   {
-    "part_number": "MPU-9250",
-    "friendly_name": "3-Axis Gyroscope and Accelerometer",
-    "datasheet": "https://invensense.wpenginepowered.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf",
-    "obsolete": false,
-    "manufacturer": "InvenSense (TDK)",
-    "is_5v": false,
-    "is_3v": true,
-    "is_spi": true,
-    "release_date": 2013,
-    "scanned_drivers": false,
-    "drivers": [],
-    "addresses": [
-      104
-    ]
-  },
-  {
     "part_number": "MS5607",
     "friendly_name": "Barometric Pressure",
-    "datasheet": "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc\u0026DocId=Data+Sheet%7FMS5607-02BA03%7FB2%7Fpdf%7FEnglish%7FENG_DS_MS5607-02BA03_B2.pdf%7FCAT-BLPS0035",
+    "datasheet": "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FMS5607-02BA03%7FB2%7Fpdf%7FEnglish%7FENG_DS_MS5607-02BA03_B2.pdf%7FCAT-BLPS0035",
     "manufacturer": "TE Connectivity",
     "scanned_drivers": true,
     "drivers": [],
@@ -2485,7 +2485,7 @@
   {
     "part_number": "MS5611",
     "friendly_name": "Barometric Pressure",
-    "datasheet": "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc\u0026DocId=Data+Sheet%7FMS5611-01BA03%7FB3%7Fpdf%7FEnglish%7FENG_DS_MS5611-01BA03_B3.pdf%7FCAT-BLPS0036",
+    "datasheet": "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FMS5611-01BA03%7FB3%7Fpdf%7FEnglish%7FENG_DS_MS5611-01BA03_B3.pdf%7FCAT-BLPS0036",
     "manufacturer": "TE Connectivity",
     "scanned_drivers": true,
     "drivers": [],
@@ -2583,9 +2583,9 @@
     "scanned_drivers": false,
     "drivers": [],
     "addresses": [
+      118,
       117,
       116,
-      118,
       119
     ]
   },
@@ -2602,13 +2602,13 @@
     "scanned_drivers": false,
     "drivers": [],
     "addresses": [
+      118,
       117,
       116,
-      118,
-      112,
-      113,
       115,
       119,
+      112,
+      113,
       114
     ]
   },
@@ -2623,69 +2623,69 @@
     "scanned_drivers": true,
     "drivers": [],
     "addresses": [
-      86,
-      84,
       80,
-      65,
-      117,
-      121,
-      116,
-      118,
-      105,
       67,
-      70,
-      71,
+      121,
       75,
+      118,
+      86,
+      117,
+      105,
+      71,
+      116,
+      84,
+      65,
+      70,
       76,
       78,
-      97,
-      89,
-      87,
-      123,
-      68,
-      124,
-      88,
-      64,
-      112,
-      113,
-      115,
-      119,
-      127,
-      126,
-      107,
-      74,
-      69,
-      73,
-      111,
       77,
-      85,
-      91,
-      93,
-      95,
-      99,
-      102,
-      106,
-      122,
       109,
+      115,
+      123,
+      73,
+      74,
+      126,
+      88,
+      106,
+      89,
+      69,
+      95,
+      122,
+      107,
+      64,
+      68,
+      99,
+      119,
+      111,
+      93,
+      127,
+      85,
       125,
-      83,
-      90,
-      114,
-      72,
-      82,
+      112,
+      124,
+      87,
+      113,
+      97,
+      91,
+      102,
       120,
-      110,
-      98,
-      66,
-      92,
-      94,
-      100,
       108,
-      104,
-      81,
-      96,
-      79,
+      92,
+      98,
+      114,
+      83,
+      110,
+      94,
+      66,
+      82,
+      100,
+      90,
+      72,
       101,
+      96,
+      81,
+      104,
+      79,
       103
     ]
   },
@@ -2804,7 +2804,7 @@
       },
       {
         "link": "https://gist.github.com/menesesleonardo/2fa6d702ac2d8031b463c21439cf40de",
-        "title": "pcf8523 rtc esp32 · GitHub"
+        "title": "pcf8523 rtc esp32 \u00b7 GitHub"
       }
     ],
     "addresses": [
@@ -2847,7 +2847,7 @@
   {
     "part_number": "PCF8569",
     "friendly_name": "LCD column driver for dot matrix displays ",
-    "datasheet": "https://www.datasheetarchive.com/pdf/download.php?id=29823bdf04faa1ad362752dfd7755d7cbe54b8\u0026type=O\u0026term=PCF8569",
+    "datasheet": "https://www.datasheetarchive.com/pdf/download.php?id=29823bdf04faa1ad362752dfd7755d7cbe54b8&type=O&term=PCF8569",
     "obsolete": false,
     "manufacturer": "NXP Semiconductors",
     "is_5v": true,
@@ -2875,16 +2875,16 @@
     "drivers": [],
     "addresses": [
       105,
-      107,
       106,
+      107,
       104
     ]
   },
   {
     "part_number": "PCF8574",
     "friendly_name": "Remote 8-Bit I/O Expander",
-    "datasheet": "https://www.ti.com/lit/ds/symlink/pcf8574.pdf?ts=1594925788888\u0026ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FPCF8574%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-wwe%2526utm_content%253DPCF8574%2526ds_k%253DPCF8574%2BDatasheet%2526DCM%253Dyes%2526gclid%253DEAIaIQobChMIhODEqbnS6gIViIGRCh29ZgLyEAAYAyAAEgJdr_D_BwE%2526gclsrc%253Daw.ds",
-    "amazon": "https://www.amazon.com/PCF8574P-112-EXPANDER-16DIP-PCF8574/dp/B01769ECSS/ref=sr_1_1?dchild=1\u0026keywords=pcf8574p\u0026qid=1594925678\u0026sr=8-1",
+    "datasheet": "https://www.ti.com/lit/ds/symlink/pcf8574.pdf?ts=1594925788888&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FPCF8574%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-wwe%2526utm_content%253DPCF8574%2526ds_k%253DPCF8574%2BDatasheet%2526DCM%253Dyes%2526gclid%253DEAIaIQobChMIhODEqbnS6gIViIGRCh29ZgLyEAAYAyAAEgJdr_D_BwE%2526gclsrc%253Daw.ds",
+    "amazon": "https://www.amazon.com/PCF8574P-112-EXPANDER-16DIP-PCF8574/dp/B01769ECSS/ref=sr_1_1?dchild=1&keywords=pcf8574p&qid=1594925678&sr=8-1",
     "obsolete": false,
     "manufacturer": "TI",
     "is_5v": true,
@@ -2893,21 +2893,21 @@
     "scanned_drivers": false,
     "drivers": [],
     "addresses": [
-      65,
       67,
-      70,
-      71,
       75,
+      71,
+      65,
+      70,
       76,
       78,
-      68,
-      64,
+      77,
+      73,
       74,
       69,
-      73,
-      77,
-      72,
+      64,
+      68,
       66,
+      72,
       79
     ]
   },
@@ -2925,19 +2925,19 @@
     "scanned_drivers": false,
     "drivers": [],
     "addresses": [
-      33,
-      36,
       39,
-      38,
-      35,
+      36,
+      33,
       32,
       34,
-      37
+      37,
+      35,
+      38
     ]
   },
   {
     "part_number": "PCF8574AP",
-    "friendly_name": "I²C-bus to parallel port expander",
+    "friendly_name": "I\u00b2C-bus to parallel port expander",
     "datasheet": "https://www.nxp.com/docs/en/data-sheet/PCF8574_PCF8574A.pdf",
     "obsolete": false,
     "manufacturer": "NXP",
@@ -2947,11 +2947,11 @@
     "scanned_drivers": false,
     "drivers": [],
     "addresses": [
-      58,
-      60,
       57,
-      62,
+      58,
       63,
+      62,
+      60,
       56,
       59,
       61
@@ -2970,14 +2970,14 @@
     "scanned_drivers": false,
     "drivers": [],
     "addresses": [
-      33,
-      36,
       39,
-      38,
-      35,
+      36,
+      33,
       32,
       34,
-      37
+      37,
+      35,
+      38
     ]
   },
   {
@@ -3100,7 +3100,7 @@
       },
       {
         "link": "https://gist.github.com/1959674",
-        "title": "Partial PN532 dissector · GitHub"
+        "title": "Partial PN532 dissector \u00b7 GitHub"
       }
     ],
     "addresses": [
@@ -3159,8 +3159,8 @@
       }
     ],
     "addresses": [
-      58,
       57,
+      58,
       56,
       59
     ]
@@ -3331,7 +3331,7 @@
   {
     "part_number": "SAA5244",
     "friendly_name": "Integrated VIP and teletext",
-    "datasheet": "http://www.abcelectronique.com/composants/telechargement_datasheet.php?id=1288657\u0026part-number=SAA5244",
+    "datasheet": "http://www.abcelectronique.com/composants/telechargement_datasheet.php?id=1288657&part-number=SAA5244",
     "manufacturer": "NXP Semiconductors",
     "scanned_drivers": true,
     "drivers": [],
@@ -3500,8 +3500,8 @@
     "scanned_drivers": true,
     "drivers": [],
     "addresses": [
-      97,
       99,
+      97,
       98,
       96
     ]
@@ -3527,8 +3527,8 @@
     "scanned_drivers": true,
     "drivers": [],
     "addresses": [
-      97,
       99,
+      97,
       98,
       96
     ]
@@ -3750,7 +3750,7 @@
       },
       {
         "link": "https://pypi.org/project/Adafruit-SHT31/",
-        "title": "Adafruit-SHT31 · PyPI"
+        "title": "Adafruit-SHT31 \u00b7 PyPI"
       },
       {
         "link": "https://www.npmjs.com/package/raspi-node-sht31?activeTab=readme",
@@ -3758,15 +3758,15 @@
       }
     ],
     "addresses": [
-      68,
-      69
+      69,
+      68
     ]
   },
   {
     "part_number": "SHTC3",
-    "friendly_name": "Humidity \u0026 Temperature Sensor",
+    "friendly_name": "Humidity & Temperature Sensor",
     "datasheet": "https://www.waveshare.com/w/upload/3/33/SHTC3_Datasheet.pdf",
-    "amazon": "https://www.amazon.com/Electronic-Components-SHTC3-Digital-Durable/dp/B08CXGMKNX/ref=sr_1_2?dchild=1\u0026keywords=shtc3\u0026qid=1600210593\u0026sr=8-2",
+    "amazon": "https://www.amazon.com/Electronic-Components-SHTC3-Digital-Durable/dp/B08CXGMKNX/ref=sr_1_2?dchild=1&keywords=shtc3&qid=1600210593&sr=8-2",
     "obsolete": false,
     "manufacturer": "Sensirion",
     "is_5v": false,
@@ -3858,7 +3858,7 @@
       },
       {
         "link": "https://github.com/torvalds/linux/blob/master/drivers/media/radio/si4713/si4713.c",
-        "title": "linux/si4713.c at master · torvalds/linux · GitHub"
+        "title": "linux/si4713.c at master \u00b7 torvalds/linux \u00b7 GitHub"
       },
       {
         "link": "https://github.com/daniel-j/Adafruit-Si4713-RPi",
@@ -3888,7 +3888,7 @@
       },
       {
         "link": "https://gist.github.com/NT7S/5c4d15769d5036fb258e",
-        "title": "Simple JT9 beacon for Arduino driving the Si5351 · GitHub"
+        "title": "Simple JT9 beacon for Arduino driving the Si5351 \u00b7 GitHub"
       },
       {
         "link": "https://github.com/etherkit/Si5351Arduino",
@@ -3896,7 +3896,7 @@
       },
       {
         "link": "https://github.com/torvalds/linux/blob/master/drivers/clk/clk-si5351.c",
-        "title": "linux/clk-si5351.c at master · torvalds/linux · GitHub"
+        "title": "linux/clk-si5351.c at master \u00b7 torvalds/linux \u00b7 GitHub"
       }
     ],
     "addresses": [
@@ -3971,7 +3971,7 @@
         "title": "GitHub - adafruit/Adafruit_SSD1305_Library: OLEDs with SSD1305"
       },
       {
-        "link": "https://forums.adafruit.com/viewtopic.php?f=47\u0026t=100027",
+        "link": "https://forums.adafruit.com/viewtopic.php?f=47&t=100027",
         "title": "SSD1325 or SSD1305 for BeagleBone Black"
       },
       {
@@ -4059,9 +4059,9 @@
       75,
       76,
       78,
-      74,
-      73,
       77,
+      73,
+      74,
       72,
       79
     ]
@@ -4105,17 +4105,17 @@
     "drivers": [
       {
         "link": "https://github.com/mbin/i2c/blob/master/i2ctest/i2ctest/tca9548.c",
-        "title": "i2c/tca9548.c at master · mbin/i2c · GitHub"
+        "title": "i2c/tca9548.c at master \u00b7 mbin/i2c \u00b7 GitHub"
       }
     ],
     "addresses": [
+      118,
       117,
       116,
-      118,
-      112,
-      113,
       115,
       119,
+      112,
+      113,
       114
     ]
   },
@@ -4134,13 +4134,13 @@
     "scanned_drivers": false,
     "drivers": [],
     "addresses": [
+      118,
       117,
       116,
-      118,
-      112,
-      113,
       115,
       119,
+      112,
+      113,
       114
     ]
   },
@@ -4157,14 +4157,14 @@
     "scanned_drivers": false,
     "drivers": [],
     "addresses": [
-      33,
-      36,
       39,
-      38,
-      35,
+      36,
+      33,
       32,
       34,
-      37
+      37,
+      35,
+      38
     ]
   },
   {
@@ -4207,14 +4207,6 @@
   },
   {
     "part_number": "TDA4670",
-    "friendly_name": "Picture signal improvement (PSI) circuit",
-    "manufacturer": "NXP Semiconductors",
-    "scanned_drivers": true,
-    "drivers": [],
-    "addresses": []
-  },
-  {
-    "part_number": "TDA4670",
     "friendly_name": "Picture signal improvement circuit",
     "datasheet": "http://pdf.datasheetcatalog.com/datasheet/philips/TDA4670.pdf",
     "obsolete": false,
@@ -4228,6 +4220,14 @@
     "addresses": [
       68
     ]
+  },
+  {
+    "part_number": "TDA4670",
+    "friendly_name": "Picture signal improvement (PSI) circuit",
+    "manufacturer": "NXP Semiconductors",
+    "scanned_drivers": true,
+    "drivers": [],
+    "addresses": []
   },
   {
     "part_number": "TDA4671",
@@ -4743,17 +4743,17 @@
       },
       {
         "link": "https://github.com/torvalds/linux/blob/master/drivers/iio/temperature/tmp006.c",
-        "title": "linux/tmp006.c at master · torvalds/linux · GitHub"
+        "title": "linux/tmp006.c at master \u00b7 torvalds/linux \u00b7 GitHub"
       }
     ],
     "addresses": [
-      65,
       67,
-      70,
       71,
-      68,
-      64,
+      65,
+      70,
       69,
+      64,
+      68,
       66
     ]
   },
@@ -4776,7 +4776,7 @@
       },
       {
         "link": "https://github.com/torvalds/linux/blob/master/drivers/iio/temperature/tmp007.c",
-        "title": "linux/tmp007.c at master · torvalds/linux · GitHub"
+        "title": "linux/tmp007.c at master \u00b7 torvalds/linux \u00b7 GitHub"
       },
       {
         "link": "https://github.com/ControlEverythingCommunity/TMP007",
@@ -4784,13 +4784,13 @@
       }
     ],
     "addresses": [
-      65,
       67,
-      70,
       71,
-      68,
-      64,
+      65,
+      70,
       69,
+      64,
+      68,
       66
     ]
   },
@@ -4815,13 +4815,13 @@
       },
       {
         "link": "https://gist.github.com/4070111",
-        "title": "tmp102 from Pi. · GitHub"
+        "title": "tmp102 from Pi. \u00b7 GitHub"
       }
     ],
     "addresses": [
       75,
-      74,
       73,
+      74,
       72
     ]
   },
@@ -4872,8 +4872,8 @@
     "scanned_drivers": true,
     "drivers": [],
     "addresses": [
-      97,
       99,
+      97,
       98,
       96
     ]
@@ -4939,7 +4939,7 @@
       },
       {
         "link": "https://pypi.org/project/tsl2561/",
-        "title": "tsl2561 · PyPI"
+        "title": "tsl2561 \u00b7 PyPI"
       },
       {
         "link": "https://github.com/sim0nx/tsl2561",
@@ -5180,7 +5180,7 @@
   },
   {
     "part_number": "XD8574",
-    "friendly_name": "I²C 8-Bit I/O Expander",
+    "friendly_name": "I\u00b2C 8-Bit I/O Expander",
     "datasheet": "https://datasheet.lcsc.com/lcsc/2008071609_XINLUDA-XL8574T_C561271.pdf",
     "obsolete": false,
     "manufacturer": "Xinluda",
@@ -5190,19 +5190,19 @@
     "scanned_drivers": false,
     "drivers": [],
     "addresses": [
+      118,
       117,
       116,
-      118,
-      112,
-      113,
       115,
       119,
+      112,
+      113,
       114
     ]
   },
   {
     "part_number": "XD8574A",
-    "friendly_name": "I²C 8-Bit I/O Expander",
+    "friendly_name": "I\u00b2C 8-Bit I/O Expander",
     "datasheet": "https://datasheet.lcsc.com/lcsc/2008071609_XINLUDA-XL8574T_C561271.pdf",
     "obsolete": false,
     "manufacturer": "Xinluda",
@@ -5212,14 +5212,14 @@
     "scanned_drivers": false,
     "drivers": [],
     "addresses": [
-      33,
-      36,
       39,
-      38,
-      35,
+      36,
+      33,
       32,
       34,
-      37
+      37,
+      35,
+      38
     ]
   },
   {

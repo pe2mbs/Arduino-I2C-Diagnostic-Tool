@@ -1,0 +1,66 @@
+#
+#   i2c_scanner: create the device list to be stored in flash.
+#
+#   Copyright (C) 2025 Marc Bertens-Nguyen <m.bertens@pe2mbs.nl>
+#   
+#   This program is free software; you can redistribute it and/or modify
+#   it under the terms of the GNU General Public License as published by
+#   the Free Software Foundation; either version 2 of the License.
+#   
+#   This program is distributed in the hope that it will be useful,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#   GNU General Public License for more details.
+#   
+#   You should have received a copy of the GNU General Public License along
+#   with this program; if not, see <https://www.gnu.org/licenses/>.
+#
+#
+import json
+import requests
+import datetime 
+from mako.template import Template
+
+
+__version__ = '1.0.0'
+__date__    = '12 July 2025'
+
+
+addresses = {}
+
+print( "-" * 78 )
+print( """Update I2C devices, version {version}, Copyright (C) 2025 Marc Bertens-Nguyen
+Update I2C devices comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions on GPL2.0-only licence.""".format( version = __version__ ) )
+print( "-" * 78 )
+
+r = requests.get( "https://i2cdevices.org/devices.json" )
+if r.status_code == 200:
+    print( "Get Data from 'https://i2cdevices.org'"  )
+    devices = json.loads( r.content )
+    with open( 'devices.json', 'w' ) as stream:
+        json.dump( devices, stream, indent = 2 )
+
+else:
+    print( "Load and use local data" )
+    with open( 'devices.json', 'r' ) as stream:
+        devices = json.load( stream )
+
+device_cnt = 0
+for device in devices: 
+    part = device[ "part_number" ]
+    for addr  in device[ "addresses" ]:
+        addresses.setdefault( addr, [] ).append( part )
+        device_cnt += 1
+
+
+template = Template( filename = 'template/i2cdevices.cpp.mako' )
+output = template.render( devices = addresses,
+                          reserved_devices = 0x0c,
+                          generate_timestamp = datetime.datetime.now().strftime( "%Y-%m-%d %H:%M:%S" ) )
+
+print( f"Total {device_cnt} devices available for detection.\n" )
+
+with open( "src/i2cdevices.cpp", "w", ) as stream:
+    stream.write( output )
